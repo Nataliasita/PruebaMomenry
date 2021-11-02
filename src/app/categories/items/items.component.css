@@ -1,0 +1,13 @@
+.item_contenedor{
+    height: 30vh;
+    width: 11vw;
+    background-color: crimson;
+    border-radius: 10px;
+    margin: 1vh 1vw;
+   
+}
+.image_item{
+    height: 30vh;
+    width: 11vw;
+    border-radius: 10px;
+}
