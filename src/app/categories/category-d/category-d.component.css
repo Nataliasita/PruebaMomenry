@@ -131,7 +131,7 @@
     grid-gap: 1.3vh;
     grid-row: auto;
 }
-.cataloge_all::-webkit-scrollbar {
+/* .cataloge_all::-webkit-scrollbar {
     -webkit-appearance: none;
 }
 
@@ -160,4 +160,4 @@
     position: absolute;
     z-index: 3;
     margin-left: 2vw;
-}
+} */
