@@ -160,31 +160,4 @@
     position: absolute;
     z-index: 3;
     margin-left: 2vw;
-    display: grid;
-    overflow-y: scroll;
-    padding:1vh 1vw;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 1.3vh;
-}
-.cataloge_list::-webkit-scrollbar {
-    -webkit-appearance: none;
-}
-
-.cataloge_list::-webkit-scrollbar:vertical {
-    width:0.5vw;
-}
-
-.cataloge_list::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
-    display: none;
-} 
-
-.cataloge_list::-webkit-scrollbar:horizontal {
-    height: 4vh;
-}
-
-.cataloge_list::-webkit-scrollbar-thumb {
-    background-color: rgb(126, 126, 126);
-}
-.cataloge_list::-webkit-scrollbar-track {
-    border-radius: 10px;  
 }
