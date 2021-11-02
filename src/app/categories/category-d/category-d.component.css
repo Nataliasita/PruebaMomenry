@@ -131,7 +131,7 @@
     grid-gap: 1.3vh;
     grid-row: auto;
 }
-/* .cataloge_all::-webkit-scrollbar {
+.cataloge_all::-webkit-scrollbar {
     -webkit-appearance: none;
 }
 
@@ -139,25 +139,14 @@
     width:0.5vw;
 }
 
-.cataloge_all::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
-    display: none;
-} 
-
-.cataloge_all::-webkit-scrollbar:horizontal {
-    height: 4vh;
-}
-
 .cataloge_all::-webkit-scrollbar-thumb {
     background-color: #F2F2F2;
-}
-.cataloge_all::-webkit-scrollbar-track {
-    border-radius: 10px;  
-}
-.cataloge_list{
+} 
+/* .cataloge_list{
     height: 65vh;
     width: 85vw;
     background-color: rgb(126, 126, 126);
     position: absolute;
     z-index: 3;
     margin-left: 2vw;
-} */
+}   */
