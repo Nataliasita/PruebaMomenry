@@ -92,7 +92,7 @@
 }
 
 .btn_1{
-    background-image:url('/assets/SVG/icon_collage.svg');
+    background-image:url('src/assets/SVG/icon_collage.svg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 3.2vh;
@@ -103,7 +103,7 @@
     border: 0;
 }
 .btn_2{
-    background-image:url('/assets/SVG/icon_list.svg');
+    background-image:url('src/assets/SVG/icon_list.svg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 3.2vh;

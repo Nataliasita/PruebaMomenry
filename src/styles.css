@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'SFProDisplay-Bold';
-    src: url(assets/Font/SFProDisplay/SFProDisplay-Bold.ttf) format("opentype");
+    src: url('assets/Font/SFProDisplay/SFProDisplay-Bold.ttf') format("opentype");
 }
 @font-face {
     font-family: 'SFProDisplay';
-    src: url(assets/Font/SFProDisplay/SFProDisplay-Regular.ttf) format("opentype");
+    src: url('assets/Font/SFProDisplay/SFProDisplay-Regular.ttf') format("opentype");
 }
 * {
     box-sizing: border-box;

@@ -94,7 +94,7 @@ a:link, a:visited, a:active {
     margin-left: 0.3vw;
     display: flex;
     flex-direction: column;
-    background-image: url(../assets/PNG/fnd.png);
+    background-image: url('src/assets/PNG/fnd.png');
     background-size: 100% 135%;
     background-repeat: no-repeat;
 }
