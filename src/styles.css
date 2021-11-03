@@ -13,3 +13,30 @@
     font-family: 'SFProDisplay';
     
   }
+  
+.cataloge_list{
+    height: 65vh;
+    width: 85vw;
+    background-color: #7e7e7e;
+    position: absolute;
+    z-index: 1;
+    flex-direction: row;
+    margin-left: 2vw;
+    display: grid;
+    overflow-y: scroll;
+    padding:1vh 1vw;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1.3vh;
+    grid-row: auto;
+}
+.cataloge_list::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.cataloge_list::-webkit-scrollbar:vertical {
+    width:0.5vw;
+}
+
+.cataloge_list::-webkit-scrollbar-thumb {
+    background-color: #7e7e7e;
+} 
