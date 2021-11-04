@@ -24,14 +24,17 @@
         <button class="btn_2"  (click)='images_user2=!images_user2'></button>
     </nav>
 
-    <div *ngIf="images_user" class="cataloge_all">
-        <app-items></app-items>
-
+    <div *ngIf="images_user" class="cataloge_all" >
+        <button id="add_image"><img style="height: 7vh;" src="assets/SVG/icon_plus_white.svg" alt=""></button>
+        <app-items style="display: flex;"></app-items>
     </div>
 
     <div *ngIf="images_user2" class="cataloge_list">
+        <nav>
+            
 
-
+        </nav>
+        <app-items-list></app-items-list>
 
     </div>
 

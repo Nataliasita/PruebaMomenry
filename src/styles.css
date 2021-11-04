@@ -13,19 +13,36 @@
     font-family: 'SFProDisplay';
     
   }
-  
+  .cataloge_all::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.cataloge_all::-webkit-scrollbar:vertical {
+    width:0.5vw;
+}
+
+.cataloge_all::-webkit-scrollbar-thumb {
+    background-color: #F2F2F2;
+} 
+#add_image{
+    height: 35vh;
+    width: 11.5vw;
+    border: 0;
+    background-color: #4587E3;
+    border-radius: 5px;
+} 
 .cataloge_list{
     height: 65vh;
-    width: 85vw;
-    background-color: #7e7e7e;
+    width: 87vw;
+    background-color: #F2F2F2;
     position: absolute;
     z-index: 1;
-    flex-direction: row;
-    margin-left: 2vw;
+    margin-left: 1vw;
     display: grid;
     overflow-y: scroll;
     padding:1vh 1vw;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-rows: repeat(10,35vh); */
     grid-gap: 1.3vh;
     grid-row: auto;
 }
@@ -38,5 +55,5 @@
 }
 
 .cataloge_list::-webkit-scrollbar-thumb {
-    background-color: #7e7e7e;
+    background-color: #F2F2F2;
 } 

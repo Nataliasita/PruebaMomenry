@@ -1,0 +1,16 @@
+<div class="item_contenedor" *ngFor="let item of itemService.items">
+    <img class="image_item" src="{{item.image}}" >
+
+    <div id="description_item">
+        <div id='description_creation' >
+        <p id="title_image" style="margin-bottom: 0.5vh;">{{item.title}}</p>
+        <p style="font-size: 0.65em;">{{item.description}}</p>
+        <button id="btn_fixed"><img style="height: 2vh;" src="assets/SVG/icon_fix.svg" alt=""></button>
+
+        <img style="height: 3.5vh;" id="icon_content_fine" src="assets/SVG/icon_content.svg" alt="">
+        <img style="height: 2vh;" id="icons_more" src="assets/SVG/icon_options_grey.svg" alt="">
+         <img style="width: 1vw;" id="icons_more2" src="assets/SVG/icon_dropdown.svg" alt="">
+   </div>
+
+   
+</div>

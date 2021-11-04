@@ -1,12 +1,84 @@
 .item_contenedor{
-    height: 30vh;
+    font-family: 'SFProDisplay';
+    height: 35vh;
     width: 11vw;
-    border-radius: 10px;
-    margin: 1vh 1vw;
-   
+    border-radius: 7px;
+    margin: 0 0.5vw;
+    font-size: 0.57em;
+    color: #4D4D4D;
+    overflow: hidden;
+    justify-content: center;
 }
 .image_item{
-    height: 30vh;
+    height: 35vh;
+    width: 17vw;
+    border-radius: 7px;
+    margin-left: -4vw;
+}
+#description_item{
+    height: 35vh;
     width: 11vw;
-    border-radius: 10px;
+    border-radius: 7px;
+    margin: 0;
+    top: 1vh;
+    position: absolute;
+    background-color: #00000017;
+    opacity: 0;
+}
+.item_contenedor:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.item_contenedor:hover #description_item{
+    opacity: 1;
+}
+#btn_more_item{
+    background: none;
+    border: 0;
+    position:absolute ;
+    right: 0.7vw;
+    z-index: 50;
+}
+#description_creation{
+    height: 6vh;
+    background-color: #FFFFFF;
+    width: 11vw;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 1vh 0 0 1vw;
+}
+#btn_fixed{
+    position: absolute;
+    right: 0.8vw;
+    bottom: 1.5vh;
+    border: 0;
+    background: none;
+}
+.options_image{
+    background-color:#FFFFFF;
+    height: 24vh;
+    width: 9vw;
+    position: absolute;
+    top:5vh;
+    margin-left: 5vw;
+    flex-direction: column;
+    display: flex;
+    border-radius: 5px;
+    z-index: 51;
+}
+.btn_options_image{
+    border:0;
+    text-align: left;
+    padding-left:1vw ;
+    font-size: 0.6em;
+    color: #4D4D4D;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.btn_options_image:hover{
+    background-color: #F2F2F2;
+
 }

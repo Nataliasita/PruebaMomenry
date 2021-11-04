@@ -1,5 +1,23 @@
 <div class="item_contenedor" *ngFor="let item of itemService.items">
-<img class="image_item" src="{{item.image}}">
-<p>{{item.title}}</p>
+    <img class="image_item" src="{{item.image}}" >
+
+<div id="description_item">
+    <button id="btn_more_item" (click)='more_options=!more_options'><img style="width: 1vw;" src="assets/SVG/icon_options_white.svg" alt=""></button>
+    <div id='description_creation' >
+    <p style="margin-bottom: 0.5vh;">{{item.title}}</p>
+    <p style="font-size: 0.65em;">{{item.description}}</p>
+    <button id="btn_fixed"><img style="height: 2vh;" src="assets/SVG/icon_fix.svg" alt=""></button>
+    </div>
+</div>
+
 
 </div>
+<div class="options_image" *ngIf='more_options'>
+    <button class="btn_options_image" style="height: 4.8vh;"><img src="assets/SVG/icon_edit.svg" [style]="{'height':'1.8vh','margin-right':'1vw'}" alt="">Edit</button>
+    <button class="btn_options_image" style="height: 4.8vh;"><img src="assets/SVG/icon_print.svg" [style]="{'height':'1.8vh','margin-right':'1vw'}"  alt="">Print</button>
+    <button class="btn_options_image" style="height: 4.8vh;"><img src="assets/SVG/icon_replicate.svg" [style]="{'height':'1.8vh','margin-right':'1vw','margin-left':'-0.2vw'}"  alt="">Duplicate</button>
+    <button class="btn_options_image" style="height: 4.8vh;"><img src="assets/SVG/icon_download.svg" [style]="{'height':'1.8vh','margin-right':'1.35vw'}" alt="">Download</button>
+    <button class="btn_options_image" style="height: 4.8vh;"><img src="assets/SVG/icon_share.svg" [style]="{'height':'1.8vh','margin-right':'1.2vw'}"  alt="">Share</button>
+</div>
+
+

@@ -7,6 +7,8 @@ import { ItemsService } from '../services/items.service';
   styleUrls: ['./items.component.css']
 })
 export class ItemsComponent  {
+  more_options:Boolean =false;
+  
   items=[]
 
 
